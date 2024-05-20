@@ -1,0 +1,324 @@
+.App {
+  font-family: Stapel, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white; 
+}
+
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.input-fields {
+  margin-bottom: 20px;
+}
+
+.input-fields div{
+  margin-bottom: 20px;
+}
+
+.input-fields input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-button {
+  background-color: #97d600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+.login-button:hover {
+  background-color: #76a800;
+}
+
+p a {
+  color: rgb(49, 171, 219);
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.registration-form {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bigger-text{
+  font-size: 20px;
+}
+
+.header {
+  width: 100%;
+  background-color: #97d600;
+  /* padding: 20px 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 40px; 
+}
+
+.home-link {
+  margin-right: 40px; 
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.content {
+  background-color: white; 
+  width: 100%;
+  min-height: 100%; 
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.input-wrapper {
+  margin-bottom: 10px; 
+}
+
+.input-wrapper input {
+  width: 300px;
+  margin-bottom: 10px; 
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-column input {
+  margin-bottom: 10px;
+  width: 500px;
+  height: 50px;
+}
+
+.register-button {
+  width: 300px;
+  background-color: #97d600;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.register-button:hover {
+  background-color: #76a800;
+}
+
+
+
+
+.parsing-page-content {
+  display: flex;
+  background-color: white; 
+  justify-content: center;
+  gap: 200px;
+}
+
+.profile-page-content {
+  padding: 30px;
+}
+
+.profile-page h2 {
+  margin-bottom: 20px;
+}
+
+.profile-fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center; 
+}
+
+.border{
+  border: 1px solid black; 
+  padding: 10px;
+  background-color: #f2eddb;
+  margin-bottom: 20px;
+}
+
+.biggest-text{
+  font-size: 30px;
+}
+
+.field {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.field input {
+  margin-bottom: 10px;
+  width: 500px;
+  height: 30px;
+}
+
+.field label {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.save-button {
+  background-color: #97d600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px; 
+  width: 250px;
+  height: 40px;
+}
+
+.save-button:hover {
+  background-color: #76a800;
+}
+
+.favorite-queries {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favorite-queries table {
+  width: 45%;
+}
+
+.favorite-queries table th,
+.favorite-queries table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.favorite-queries table th {
+  background-color: #f2f2f2;
+}
+
+
+.parsing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parsing-page-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.left-column,
+.right-column {
+  margin: 0 10px;
+}
+
+.left-column {
+  margin-right: 20px;
+}
+
+.category-input {
+  display: flex;
+  align-items: center;
+}
+
+.category-input input {
+  margin-right: 10px;
+}
+
+.category {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.remove-category {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.category-list {
+  margin-top: 10px;
+}
+
+
+.start-parsing-button {
+  background-color: #97d600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 300px;
+  height: 40px;
+}
+
+.start-parsing-button:hover {
+  background-color: #76a800;
+}
+
+.right-column .favorite-queries table {
+  width: 100%;
+}
+
+.favorite-button,
+.download-button {
+  margin-top: 20px;
+  background-color: #97d600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+}
+
+.favorite-button:hover,
+.download-button:hover {
+  background-color: #76a800;
+}
